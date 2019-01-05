@@ -1,0 +1,24 @@
+nav{
+  position: relative;
+  z-index: 4;
+}
+.navbar {
+  border-radius: 0px !important;
+}
+.navbar {
+  margin-bottom: 0px;
+}
+
+.space-nav {
+  color: white;
+  font-size: 20px;
+  vertical-align: middle;
+  line-height: 49px;
+  padding: 0px 20px;
+}
+.navbar-inverse .navbar-nav > li > .nav-category {
+  color: #2196f3;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: white;
+}
