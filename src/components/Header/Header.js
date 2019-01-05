@@ -17,13 +17,13 @@ class Header extends Component {
             <div className="collapse navbar-collapse">
               <ul className="nav navbar-nav">
                 <li>
-                  <NavLink to="/about" activeClassName="active">
+                  <NavLink to="/list-employees" activeClassName="active">
                     Lista De Empleados
                   </NavLink>
                 </li>
                 <li className="space-nav">|</li>
                 <li>
-                  <NavLink to="/terms" activeClassName="active">
+                  <NavLink to="/new-employee" activeClassName="active">
                     Registro de empleados
                   </NavLink>
                 </li>
