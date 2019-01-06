@@ -10,7 +10,7 @@ class ListEmployees extends Component {
     state = {
         loading: true,
         error: null,
-        employees: null,
+        employees: null ,
     }
 
     componentDidMount = () => {
@@ -20,10 +20,10 @@ class ListEmployees extends Component {
         });
     };
     renderElementEmployeesList = employees => {
+        console.log(employees)
         const employee = employees.map(element => {
           return <Employee key={element.id} personalData={element} />;
         });
-    
         return employee;
     };
     

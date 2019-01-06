@@ -1,10 +1,10 @@
 .back-img{
     line-height: 1.2;
-    height: 100%;
-    background: #242830 url(https://www.nulldata.com/img/banner02.jpg) no-repeat center top;
-    background-size: cover;
+    
+    
     font-family: 'Open Sans', sans-serif;
     height: 100vh;
+    
 }
 .home-sty{
     opacity: 0.50;
@@ -14,6 +14,8 @@
     width: 100%;
     top: 0;
     left: 0;
+    background: #242830 url(https://www.nulldata.com/img/banner02.jpg) no-repeat center top;
+    background-size: cover;
 }
 
 .text-home{
